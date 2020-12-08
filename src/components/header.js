@@ -5,7 +5,6 @@ const Header = () => {
   return (
     <div>
       <h1 className={s.header}>Hello, World!</h1>
-      <img src="https://source.unsplash.com/random/400x400" alt=""/>
     </div>
   )
 }
