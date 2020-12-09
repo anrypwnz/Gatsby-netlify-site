@@ -1,16 +1,11 @@
 import * as React from "react";
-import Header from "../components/header";
-import Layout from "../components/layout";
+import HeaderBlock from "../components/header/header";
+import BaseLayout from "../components/layout/layout";
+import 'antd/dist/antd.css';
 
-//crate layout for blocks
-//add header
-//add footer
-//add carousel
 const IndexPage = () => {
   return (
-    <Layout>
-      <Header />
-    </Layout>
+    <BaseLayout />
   );
 };
 

@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0b0a37-ee7d-4894-9fa7-653954740d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/carousel/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/layout.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\layout" />
+      <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\header" />
       <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter" />
     </key>
   </component>
@@ -60,7 +67,7 @@
       <updated>1607423366426</updated>
       <workItem from="1607423367538" duration="17063000" />
       <workItem from="1607511197228" duration="87000" />
-      <workItem from="1607515405031" duration="646000" />
+      <workItem from="1607515405031" duration="5043000" />
     </task>
     <servers />
   </component>
