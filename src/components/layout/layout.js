@@ -1,27 +1,31 @@
 import React from 'react';
-import { Layout, Menu } from 'antd';
+import { Layout } from 'antd';
 
-import CarouselBlock from "../carousel/carousel";
+import CarouselBlock from "../carousel/";
+import HeaderBlock from "../header";
+import FooterBlock from "../footer";
+import Container from '../container';
+import s from './layout.module.css';
 
-const { Header, Content, Footer } = Layout;
+const { Content, Footer, Header } = Layout;
 
 export default function BaseLayout() {
   return (
-    <Layout className="layout">
+    <Layout>
       <Header>
-        <div className="logo" />
-        <Menu theme="dark" mode="horizontal">
-          <Menu.Item key="1">Top</Menu.Item>
-          <Menu.Item key="2">Contacts</Menu.Item>
-          <Menu.Item key="3">About Us</Menu.Item>
-          <Menu.Item key="4">Make an order</Menu.Item>
-        </Menu>
+        <HeaderBlock/>
       </Header>
-        <CarouselBlock />
-      <Content style={{ padding: '0 50px', minHeight: '80vh' }}>
-        <div className="site-layout-content">Content</div>
+      <CarouselBlock/>
+      <Content className={s.content}>
+        <Container title='pluses'>
+        </Container>
+        <Container title={'methods'}>
+        </Container>
+        <Container title={'feedback'}/>
+        <Container title={'instagram photos'}/>
+        <Container title={'application form'}/>
       </Content>
-      <Footer style={{ textAlign: 'center', backgroundColor: '#333' }}>Ant Design ©2018 Created by Ant UED</Footer>
+        <FooterBlock/>
     </Layout>
   );
 }

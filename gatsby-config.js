@@ -6,11 +6,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `./src/utils/typography`,
-      },
-    },
+    'gatsby-plugin-antd',
   ],
 };
