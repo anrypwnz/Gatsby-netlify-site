@@ -26,7 +26,7 @@ export default function FooterBlock() {
         </div>
       </div>
       <div className={s.footer__creators}>
-        <span>©2020 developing...</span>
+        <span>©2020 developing by anrypwnz</span>
         <span>powered by React</span>
       </div>
 

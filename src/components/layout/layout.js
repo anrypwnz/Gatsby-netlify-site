@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout } from 'antd';
+import { BackTop, Layout } from 'antd';
 
 import CarouselBlock from "../carousel/";
 import HeaderBlock from "../header";
@@ -7,7 +7,7 @@ import FooterBlock from "../footer";
 import Container from '../container';
 import s from './layout.module.css';
 
-const { Content, Footer, Header } = Layout;
+const { Content, Header } = Layout;
 
 export default function BaseLayout() {
   return (
@@ -26,6 +26,9 @@ export default function BaseLayout() {
         <Container title={'application form'}/>
       </Content>
         <FooterBlock/>
+      <BackTop>
+        <div className={s.backTop}>UP</div>
+      </BackTop>
     </Layout>
   );
 }
