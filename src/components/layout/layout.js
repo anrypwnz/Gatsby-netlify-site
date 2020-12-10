@@ -1,6 +1,6 @@
 import React from 'react';
 import { BackTop, Layout } from 'antd';
-
+import { CaretUpFilled } from '@ant-design/icons';
 import CarouselBlock from "../carousel/";
 import HeaderBlock from "../header";
 import FooterBlock from "../footer";
@@ -27,7 +27,9 @@ export default function BaseLayout() {
       </Content>
         <FooterBlock/>
       <BackTop>
-        <div className={s.backTop}>UP</div>
+        <div className={s.backTop}>
+        <CaretUpFilled className={s.icon}/>
+        </div>
       </BackTop>
     </Layout>
   );

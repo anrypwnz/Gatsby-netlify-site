@@ -1,7 +1,7 @@
 .back-top {
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    height: 38px;
+    width: 48px;
+    line-height: 24px;
     border-radius: 4px;
     background-color: #364D79;
     color: #fff;
@@ -15,4 +15,8 @@
     align-items: center;
     flex-flow: column;
     margin: 0 40px;
+}
+
+.icon {
+    font-size: 36px;
 }
