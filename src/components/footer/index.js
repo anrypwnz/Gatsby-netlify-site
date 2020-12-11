@@ -5,7 +5,7 @@ import s from './footer.module.css';
 
 export default function FooterBlock() {
   return (
-    <div className={s.footer}>
+    <footer className={s.footer}>
       <div className={s.footer__block}>
         <div className={s.top__block}>
           <span>Россия г. Москва</span>
@@ -15,11 +15,11 @@ export default function FooterBlock() {
           <span>Email: school@gmail.com</span>
         </div>
         <div className={s.top__block}>
-          <a className={s.social__item} target="_blank" href="http://facebook.com">
+          <a className={s.social__item} target="_blank" rel="noreferrer" href="http://facebook.com">
             <InstagramOutlined className={s.icon}/>
             Instagram
           </a>
-          <a className={s.social__item} target="_blank" href="https://instagram.com">
+          <a className={s.social__item} target="_blank" rel="noreferrer" href="https://instagram.com">
             <FacebookOutlined className={s.icon} />
             Facebook
           </a>
@@ -30,6 +30,6 @@ export default function FooterBlock() {
         <span>powered by React</span>
       </div>
 
-    </div>
+    </footer>
   );
 }
