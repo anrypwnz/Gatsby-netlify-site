@@ -1,0 +1,22 @@
+.back-top {
+    height: 38px;
+    width: 48px;
+    line-height: 24px;
+    border-radius: 4px;
+    background-color: #A9A9A9;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    margin: 0 40px;
+}
+
+.icon {
+    font-size: 36px;
+}
