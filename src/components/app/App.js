@@ -6,11 +6,11 @@ import HeaderBlock from "../header";
 import FooterBlock from "../footer";
 import Container from '../container';
 import PlusesBlock from "../pluses-block";
-import s from './layout.module.css';
+import s from './app.module.css';
 
 const { Content } = Layout;
 
-export default function BaseLayout() {
+export default function App() {
   return (
     <Layout>
       <HeaderBlock/>
@@ -23,7 +23,7 @@ export default function BaseLayout() {
         </Container>
         <Container title={'feedback'}/>
         <Container title={'instagram photos'}/>
-        <Container title={'application form'}/>
+        <Container id ='about' title={'application form'}/>
       </Content>
       <FooterBlock/>
       <BackTop>

@@ -1,11 +1,11 @@
 import * as React from "react";
 
 import 'antd/dist/antd.css';
-import BaseLayout from "../components/layout/layout";
+import App from "../components/app/App.js";
 
 const IndexPage = () => {
   return (
-      <BaseLayout/>
+      <App/>
   );
 };
 
