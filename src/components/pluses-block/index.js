@@ -31,6 +31,11 @@ export default function PlusesBlock() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et </p>
       </Card>
+      <Card className={s.card} hoverable>
+        <ScissorOutlined className={s.scissor}/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et </p>
+      </Card>
     </div>
   );
 }

@@ -1,1 +1,7 @@
 /* gatsby entry css point */
+@import '~antd/dist/antd.compact.css';
+
+.ant-form-item-control-input-content {
+    display: flex;
+    justify-content: center;
+}

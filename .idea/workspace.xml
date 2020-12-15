@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0b0a37-ee7d-4894-9fa7-653954740d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/form-block/form.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-block/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/container/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/container/container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/container.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pluses-block/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pluses-block/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pluses-block/pluses.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pluses-block/pluses.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/form-block" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\form-block" />
       <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\header" />
       <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\pluses-block" />
     </key>
@@ -80,7 +76,7 @@
       <workItem from="1607423367538" duration="17063000" />
       <workItem from="1607511197228" duration="87000" />
       <workItem from="1607515405031" duration="5343000" />
-      <workItem from="1607585715988" duration="56042000" />
+      <workItem from="1607585715988" duration="72628000" />
     </task>
     <task id="LOCAL-00001" summary="footer done">
       <created>1607611678597</created>
