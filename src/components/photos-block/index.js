@@ -6,7 +6,7 @@ export default function Photos() {
 
   return (
     <>
-      <h2 className={s.title}>Следите за нами в <a href="https://instagram.com" target="_blank">Instagram</a></h2>
+      <h2 className={s.title}>Следите за нами в <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></h2>
       <div className={s.wrap}>
         <Image
           src={'https://picsum.photos/500/300?random=1'}

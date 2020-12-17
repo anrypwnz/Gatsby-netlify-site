@@ -1,11 +1,24 @@
 /* gatsby entry css point */
 @import '~antd/dist/antd.compact.css';
 
+h2 {
+    margin-bottom: 1rem;
+}
 .ant-form-item-control-input-content {
     display: flex;
     justify-content: center;
 }
 
-h2 {
-    margin-bottom: 1rem;
+.slick-prev {
+    display: block;
+    background-color: #ffadd2;
+    left: 25px;
+    z-index: 10;
+}
+
+.ant-carousel .slick-nex {
+    background-color: #ffadd2;
+    right: 25px;
+    z-index: 10;
+
 }

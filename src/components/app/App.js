@@ -8,6 +8,9 @@ import FormBlock from "../form-block";
 import Feedback from "../feedback-block";
 import BackToTop from "../backtop";
 import Photos from "../photos-block";
+import Prises from "../prices-block";
+import MapBlock from "../map-block";
+import Methods from "../methods-block";
 import s from './app.module.css';
 
 export default function App() {
@@ -20,8 +23,10 @@ export default function App() {
           <PlusesBlock/>
         </Container>
         <Container title={'methods'} grayBg>
+          {/*<Methods />*/}
         </Container>
-        <Container title={'prices'}>
+        <Container title={'Стоимость услуг'}>
+          <Prises />
         </Container>
         <Container title={'Отзывы наших учеников'} grayBg>
           <Feedback/>
@@ -31,6 +36,9 @@ export default function App() {
         </Container>
         <Container id='form' grayBg>
           <FormBlock/>
+        </Container>
+        <Container title={'Как добраться'}>
+          <MapBlock />
         </Container>
       </div>
       <BackToTop/>

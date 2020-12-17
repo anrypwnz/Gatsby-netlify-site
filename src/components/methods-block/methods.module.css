@@ -1,0 +1,25 @@
+.wrap {
+    width: 100%;
+}
+.card {
+    max-width: 240px;
+    border-radius: 8px;
+    position: relative;
+    background-image: url("https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png");
+    height: 200px;
+    width: 200px;
+}
+.img {
+    border-radius: 8px !important;
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    top:50%;
+    color: #fff;
+}
+
+.text h3 {
+    color: #fff;
+}
