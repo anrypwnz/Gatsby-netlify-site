@@ -1,39 +1,40 @@
 import React from 'react';
-import { BackTop, Layout } from 'antd';
-import { CaretUpFilled } from '@ant-design/icons';
-import CarouselBlock from "../carousel/";
+import CarouselBlock from "../carousel";
 import HeaderBlock from "../header";
 import FooterBlock from "../footer";
 import Container from '../container';
 import PlusesBlock from "../pluses-block";
 import FormBlock from "../form-block";
+import Feedback from "../feedback-block";
+import BackToTop from "../backtop";
+import Photos from "../photos-block";
 import s from './app.module.css';
-
-const { Content } = Layout;
 
 export default function App() {
   return (
-    <Layout>
+    <>
       <HeaderBlock/>
       <CarouselBlock/>
-      <Content className={s.content}>
-        <Container title='pluses'>
+      <div className={s.content}>
+        <Container>
           <PlusesBlock/>
         </Container>
-        <Container title={'methods'}>
+        <Container title={'methods'} grayBg>
         </Container>
-        <Container title={'feedback'}/>
-        <Container title={'instagram photos'}/>
-        <Container id='about' title={'form'}>
+        <Container title={'prices'}>
+        </Container>
+        <Container title={'Отзывы наших учеников'} grayBg>
+          <Feedback/>
+        </Container>
+        <Container>
+          <Photos />
+        </Container>
+        <Container id='form' grayBg>
           <FormBlock/>
         </Container>
-      </Content>
+      </div>
+      <BackToTop/>
       <FooterBlock/>
-      <BackTop>
-        <div className={s.backTop}>
-          <CaretUpFilled className={s.icon}/>
-        </div>
-      </BackTop>
-    </Layout>
+    </>
   );
 }

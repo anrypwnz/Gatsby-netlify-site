@@ -16,6 +16,7 @@
     justify-content: space-between;
     margin: 12px;
     width: 100%;
+    max-width: 1440px;
 }
 
 .top__block {

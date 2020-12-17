@@ -10,31 +10,32 @@ export default function PlusesBlock() {
     <div className={s.wrap}>
       <Card className={s.card} hoverable>
         <ScissorOutlined className={s.scissor}/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        <Card.Meta title="Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"/>
+      </Card>
+
+      <Card className={s.card} hoverable>
+        <ScissorOutlined className={s.scissor}/>
+        <Card.Meta title="Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"/>
+      </Card>
+
+      <Card className={s.card} hoverable>
+        <ScissorOutlined className={s.scissor}/>
+        <Card.Meta title="Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"/>
+
       </Card>
       <Card className={s.card} hoverable>
         <ScissorOutlined className={s.scissor}/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore </p>
+        <Card.Meta title="Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"/>
       </Card>
+
       <Card className={s.card} hoverable>
         <ScissorOutlined className={s.scissor}/>
-        <p>Lorem ipsum dolor onsectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+        <Card.Meta title="Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"/>
       </Card>
+
       <Card className={s.card} hoverable>
         <ScissorOutlined className={s.scissor}/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et </p>
-      </Card>
-      <Card className={s.card} hoverable>
-        <ScissorOutlined className={s.scissor}/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et </p>
-      </Card>
-      <Card className={s.card} hoverable>
-        <ScissorOutlined className={s.scissor}/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et </p>
+        <Card.Meta title="Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"/>
       </Card>
     </div>
   );

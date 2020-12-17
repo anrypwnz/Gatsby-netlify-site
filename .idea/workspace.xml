@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0b0a37-ee7d-4894-9fa7-653954740d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/form-block/form.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-block/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/backtop/backtop.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/backtop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/feedback-block/feedback.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/feedback-block/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/photos-block/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/photos-block/photos.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/container/container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/container.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/container/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-block/form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form-block/form.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-block/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form-block/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pluses-block/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pluses-block/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pluses-block/pluses.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pluses-block/pluses.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
@@ -43,21 +53,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/form-block" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/photos-block" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.codota.intellij.common.configuration.CodotaConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\photos-block" />
+      <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\backtop" />
+      <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\feedback-block" />
       <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\form-block" />
       <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\header" />
-      <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\pluses-block" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\andri\Desktop\LL-website\gatsby-starter\src\components\layout" />
@@ -76,7 +88,8 @@
       <workItem from="1607423367538" duration="17063000" />
       <workItem from="1607511197228" duration="87000" />
       <workItem from="1607515405031" duration="5343000" />
-      <workItem from="1607585715988" duration="72628000" />
+      <workItem from="1607585715988" duration="73943000" />
+      <workItem from="1608103383380" duration="19163000" />
     </task>
     <task id="LOCAL-00001" summary="footer done">
       <created>1607611678597</created>
@@ -110,5 +123,9 @@
     <MESSAGE value="add &quot;UP&quot;" />
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

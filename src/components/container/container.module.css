@@ -3,6 +3,15 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin: 32px;
-    width: 90%;
+    width: 100%;
+    max-width: 1440px;
+    padding: 32px 64px;
+}
+
+.container-gray {
+    background-color: #FAFBFC;
+}
+
+.title {
+    margin-bottom: 1rem;
 }

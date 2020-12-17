@@ -4,7 +4,7 @@ import ReactHamburgerMenu from 'react-hamburger-menu';
 import s from './header.module.css';
 import logo from '../../images/logo.svg';
 
-const HeaderBlock = () => {
+export default function HeaderBlock() {
   const [isNavVisible, setIsNavVisible] = useState(false);
   const toggleNav = () => {
     setIsNavVisible(!isNavVisible);
@@ -46,7 +46,7 @@ const HeaderBlock = () => {
         >
           <nav className={s.nav}>
             <a href="#about">About</a>
-            <a href="">Contacts</a>
+            <a href='#contact'>Contacts Us</a>
             <a href="/">Prices</a>
             <a href="/">Something</a>
           </nav>
@@ -61,5 +61,3 @@ const HeaderBlock = () => {
 
   );
 };
-
-export default HeaderBlock;

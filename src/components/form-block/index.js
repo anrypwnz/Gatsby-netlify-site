@@ -21,7 +21,6 @@ export default function FormBlock() {
         size={'large'}
       >
         <Form.Item
-
           name="username"
           rules={[
             {
@@ -58,7 +57,7 @@ export default function FormBlock() {
             htmlType="submit"
             className={s.submit}
             block>
-            Submit
+            Отправить
           </Button>
         </Form.Item>
 

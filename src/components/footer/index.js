@@ -1,5 +1,5 @@
 import React from 'react';
-import { InstagramOutlined, FacebookOutlined } from '@ant-design/icons'
+import { InstagramOutlined, FacebookOutlined } from '@ant-design/icons';
 
 import s from './footer.module.css';
 
@@ -20,7 +20,7 @@ export default function FooterBlock() {
             Instagram
           </a>
           <a className={s.social__item} target="_blank" rel="noreferrer" href="https://instagram.com">
-            <FacebookOutlined className={s.icon} />
+            <FacebookOutlined className={s.icon}/>
             Facebook
           </a>
         </div>
@@ -28,7 +28,6 @@ export default function FooterBlock() {
       <div className={s.footer__creators}>
         <span>©2020 developed by anrypwnz</span>
       </div>
-
     </footer>
   );
 }
