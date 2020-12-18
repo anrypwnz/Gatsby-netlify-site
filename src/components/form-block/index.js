@@ -14,7 +14,6 @@ export default function FormBlock() {
   return (
     <div className={s.wrap}>
       <h2 className={s.title}>Оставьте заявку и мы с вами свяжемся</h2>
-
       <Form
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
@@ -31,7 +30,6 @@ export default function FormBlock() {
         >
           <Input placeholder="Ваше имя" className={s.input}/>
         </Form.Item>
-
         <Form.Item
           name="password"
           rules={[
@@ -49,8 +47,6 @@ export default function FormBlock() {
         >
           <Input placeholder="Комментарий" className={s.input}/>
         </Form.Item>
-
-
         <Form.Item>
           <Button
             type="primary"
@@ -60,7 +56,6 @@ export default function FormBlock() {
             Отправить
           </Button>
         </Form.Item>
-
       </Form>
     </div>
 

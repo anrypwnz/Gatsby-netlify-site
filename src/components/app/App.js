@@ -23,7 +23,7 @@ export default function App() {
           <PlusesBlock/>
         </Container>
         <Container title={'methods'} grayBg>
-          {/*<Methods />*/}
+          <Methods />
         </Container>
         <Container title={'Стоимость услуг'}>
           <Prises />

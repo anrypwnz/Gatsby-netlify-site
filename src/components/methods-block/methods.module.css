@@ -1,25 +1,41 @@
 .wrap {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 .card {
     max-width: 240px;
     border-radius: 8px;
     position: relative;
-    background-image: url("https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png");
-    height: 200px;
+    height: 280px;
     width: 200px;
-}
-.img {
-    border-radius: 8px !important;
-    height: 100%;
+    margin: 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1593642634443-44adaa06623a?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80") center;
+    background-size: cover;
 }
 
 .text {
     position: absolute;
-    top:50%;
+    bottom: 1.5rem;
+    right: 5px;
     color: #fff;
+    padding: .5rem;
+    transition: all .2s ease-in-out;
+    display: flex;
+    flex-flow: column;
+}
+
+.card:hover .text {
+    transform: scale(1.08);
+    bottom: 3rem
 }
 
 .text h3 {
     color: #fff;
+}
+
+.icon {
+    margin-bottom: 1rem;
 }
