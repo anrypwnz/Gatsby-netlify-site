@@ -53,6 +53,17 @@
     margin-top: 12px;
 }
 
+.heart {
+    color: #f73f51;
+}
+
+.divider {
+    width: 95%;
+    min-width: 95%;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
 @media screen and (max-width: 700px) {
     .footer__block {
         flex-flow: column;

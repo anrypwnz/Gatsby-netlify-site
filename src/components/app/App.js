@@ -11,6 +11,7 @@ import Photos from "../photos-block";
 import Prises from "../prices-block";
 import MapBlock from "../map-block";
 import Methods from "../methods-block";
+import TestMethods from "../methods-block/small-screen-carousel";
 import s from './app.module.css';
 
 export default function App() {
@@ -22,6 +23,9 @@ export default function App() {
         <Container>
           <PlusesBlock/>
         </Container>
+        {/*<Container title={'methods'}>*/}
+        {/*  <TestMethods />*/}
+        {/*</Container>*/}
         <Container title={'methods'} grayBg>
           <Methods />
         </Container>

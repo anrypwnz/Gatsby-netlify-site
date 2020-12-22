@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from 'antd';
+import { Card, Carousel } from 'antd';
 
 import s from './methods.module.css';
 
@@ -9,12 +9,11 @@ import newspaper from '../../images/newspaper.svg';
 import write from '../../images/write.svg';
 import video from '../../images/video.svg';
 
-export default function TestMethods() {
+export default function Methods() {
   return (
-    <div className={s.wrap}>
-      <Card
+    <Carousel className={s.wrap}>
+      <div
         className={s.card}
-        hoverable
       >
         <div className={s.text}>
           <img
@@ -23,7 +22,7 @@ export default function TestMethods() {
                alt='ear'/>
           <p>short description 4-6 words</p>
         </div>
-      </Card>
+      </div>
 
       <Card
         className={s.card}
@@ -76,6 +75,6 @@ export default function TestMethods() {
           <p>short description 4-6 words</p>
         </div>
       </Card>
-    </div>
+    </Carousel>
   );
 }
