@@ -34,9 +34,11 @@
     "react-dom": "^16.13.1",
     "react-hamburger-menu": "^1.2.1",
     "react-helmet": "^6.1.0",
+    "react-slick": "^0.27.13",
     "react-transition-group": "^4.4.1",
     "react-typography": "^0.16.19",
     "react-yandex-maps": "^4.6.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.1",
     "typography": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19"
