@@ -1,6 +1,5 @@
 .wrap {
     display: flex;
-    grid-gap: 2rem;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -13,10 +12,11 @@
 }
 .image {
     border-radius: 4px;
-    width: 300px;
+    width: 280px;
     height: auto;
     cursor: pointer;
     transition: transform .2s;
+    margin: 1rem;
 }
 
 .image:hover {

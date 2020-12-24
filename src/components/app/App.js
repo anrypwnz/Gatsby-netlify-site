@@ -22,10 +22,7 @@ export default function App() {
         <Container>
           <PlusesBlock/>
         </Container>
-        {/*<Container title={'methods'}>*/}
-        {/*  <TestMethods />*/}
-        {/*</Container>*/}
-        <Container title={'methods'} grayBg>
+        <Container title={'Методы обучения'} grayBg>
           <Methods />
         </Container>
         <Container title={'Стоимость услуг'}>

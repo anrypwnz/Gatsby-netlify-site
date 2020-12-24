@@ -4,9 +4,11 @@
 h2 {
     margin-bottom: 1rem;
 }
+
 a {
-    color: #333;
+    color: #111;
 }
+
 .ant-form-item-control-input-content {
     display: flex;
     justify-content: center;

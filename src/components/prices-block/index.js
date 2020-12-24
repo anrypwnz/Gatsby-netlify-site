@@ -1,12 +1,11 @@
 import React from "react";
 
-import s from './prises.module.css'
+import s from './prises.module.css';
+import prices from './prices.jpg';
 
 export default function Prises() {
 
-  return(
-    <div className={s.wrap}>
-      <img src="../../images/prices.jpg" alt="prices" className={s.img}/>
-    </div>
-  )
+  return (
+    <img className={s.img} src={prices} alt="prices"/>
+  );
 }

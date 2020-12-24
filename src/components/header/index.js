@@ -45,10 +45,10 @@ export default function HeaderBlock() {
           unmountOnExit
         >
           <nav className={s.nav}>
-            <a href="#about">About</a>
-            <a href='#contact'>Contacts Us</a>
-            <a href="/">Prices</a>
-            <a href="/">Something</a>
+            <a className={s.link} href="#about">About</a>
+            <a className={s.link} href='#contact'>Contacts Us</a>
+            <a className={s.link} href="/">Prices</a>
+            <a className={s.link} href="/">Something</a>
           </nav>
         </CSSTransition>
         <div onClick={toggleNav} className={s.burger}>
