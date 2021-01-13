@@ -37,17 +37,17 @@ export default function CarouselBlock() {
 
   return (
     <Slider {...settings}>
-      <div className={s.slide + ' ' + s.slide1}>
-        <h3 className={s.title}>Lorem Ipsum</h3>
+      <div className={s.slide + ' ' + s.slide3}>
+        <h3 className={s.title}>Школа иностранных языков</h3>
       </div>
       <div className={s.slide + ' ' + s.slide2}>
-        <h3 className={s.title}>Online bla bla bla</h3>
+        <h3 className={s.title}>Возможность учиться онлайн или оффлайн</h3>
       </div>
-      <div className={s.slide + ' ' + s.slide3}>
-        <h3 className={s.title}>Individual Group</h3>
+      <div className={s.slide + ' ' + s.slide1}>
+        <h3 className={s.title}>Авторская методика обучения</h3>
       </div>
       <div className={s.slide + ' ' + s.slide4}>
-        <h3 className={s.title}>Lalalalal </h3>
+        <h3 className={s.title}>Группы 1-4 человека</h3>
       </div>
     </Slider>
   );

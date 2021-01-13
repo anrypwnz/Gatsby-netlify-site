@@ -19,26 +19,26 @@ export default function App() {
       <HeaderBlock/>
       <CarouselBlock/>
       <div className={s.content}>
-        <Container>
+        <Container title={'Методика'} subtitle={'Прямой коммуникативный метод преподавания'} marginTitle>
           <PlusesBlock/>
         </Container>
         <Container title={'Методы обучения'} grayBg>
-          <Methods />
+          <Methods/>
         </Container>
         <Container title={'Стоимость услуг'}>
-          <Prises />
+          <Prises/>
         </Container>
         <Container title={'Отзывы наших учеников'} grayBg>
           <Feedback/>
         </Container>
         <Container>
-          <Photos />
+          <Photos/>
         </Container>
         <Container id='form' grayBg>
           <FormBlock/>
         </Container>
         <Container title={'Как добраться'}>
-          <MapBlock />
+          <MapBlock/>
         </Container>
       </div>
       <BackToTop/>

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0b0a37-ee7d-4894-9fa7-653954740d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/hooks/useWindowSize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/methods-block/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/methods-block/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/methods-block/methods.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/methods-block/methods.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/photos-block/photos.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/photos-block/photos.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/prices-block/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/prices-block/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/prices-block/prises.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/prices-block/prises.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +76,8 @@
       <workItem from="1608103383380" duration="24584000" />
       <workItem from="1608203491817" duration="25782000" />
       <workItem from="1608536914449" duration="12487000" />
-      <workItem from="1608713010133" duration="39727000" />
+      <workItem from="1608713010133" duration="40373000" />
+      <workItem from="1610350548549" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="footer done">
       <created>1607611678597</created>
