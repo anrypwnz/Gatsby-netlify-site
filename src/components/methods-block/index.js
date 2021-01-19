@@ -17,27 +17,28 @@ export default function Methods() {
     {
       img: ear,
       alt: 'ear',
-      description: 'this is ear image'
+      description: 'Слушание',
+      cover: 'https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png',
     },
     {
       img: comments,
       alt: 'comments',
-      description: 'short description 4-6 words'
+      description: 'Разговорная практика'
     },
     {
       img: newspaper,
       alt: 'newspaper',
-      description: 'this is ear image'
+      description: 'Контекстное чтение'
     },
     {
       img: write,
       alt: 'write',
-      description: 'this is ear image'
+      description: 'Навыки грамотного письма'
     },
     {
       img: video,
       alt: 'video',
-      description: 'this is ear image'
+      description: 'Просмотр видеоматериалов'
     },
   ];
   const settings = {
@@ -57,7 +58,7 @@ export default function Methods() {
         <Slider {...settings}>
           {cardsData.map((i, index) => {
             return <Card
-              className={s.card}
+              className={s.card + ' ' + s.card + '-' + i}
               hoverable
               key={index}
             >
@@ -81,7 +82,7 @@ export default function Methods() {
         <Slider {...settings}>
           {cardsData.map((i, index) => {
             return <Card
-              className={s.card}
+              className={s.card + ' ' + s.card + '-' + index}
               hoverable
               key={index}
             >
@@ -102,9 +103,10 @@ export default function Methods() {
       <div className={s.wrap}>
         {cardsData.map((i, index) => {
           return <Card
-            className={s.card}
+            className={s.card + ' ' + s.card + '-' + index}
             hoverable
             key={index}
+            cover={<img alt="cover" className={s.cover} src={i.cover} />}
           >
             <div className={s.text}>
               <img
