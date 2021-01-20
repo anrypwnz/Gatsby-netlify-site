@@ -2,13 +2,18 @@ import React from "react";
 import { Card } from 'antd';
 import Slider from "react-slick";
 
-import s from './methods.module.css';
-
 import ear from '../../images/ear.svg';
 import comments from '../../images/comments.svg';
 import newspaper from '../../images/newspaper.svg';
 import write from '../../images/write.svg';
 import video from '../../images/video.svg';
+import listening from '../../images/listen.jpg';
+import conversation from '../../images/conversation.jpg';
+import reading from '../../images/reading.jpg';
+import writing from '../../images/writing.jpg';
+import watching from '../../images/watching.jpg';
+
+import s from './methods.module.css';
 
 import useWindowSize from '../hooks/useWindowSize';
 
@@ -18,27 +23,31 @@ export default function Methods() {
       img: ear,
       alt: 'ear',
       description: 'Слушание',
-      cover: 'https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png',
+      cover: listening,
     },
     {
       img: comments,
       alt: 'comments',
-      description: 'Разговорная практика'
+      description: 'Разговорная практика',
+      cover: conversation,
     },
     {
       img: newspaper,
       alt: 'newspaper',
-      description: 'Контекстное чтение'
+      description: 'Контекстное чтение',
+      cover: reading,
     },
     {
       img: write,
       alt: 'write',
-      description: 'Навыки грамотного письма'
+      description: 'Навыки грамотного письма',
+      cover: writing,
     },
     {
       img: video,
       alt: 'video',
-      description: 'Просмотр видеоматериалов'
+      description: 'Просмотр видеоматериалов',
+      cover: watching,
     },
   ];
   const settings = {
@@ -58,9 +67,10 @@ export default function Methods() {
         <Slider {...settings}>
           {cardsData.map((i, index) => {
             return <Card
-              className={s.card + ' ' + s.card + '-' + i}
+              className={s.card}
               hoverable
               key={index}
+              cover={<img alt="cover" className={s.cover} src={i.cover}/>}
             >
               <div className={s.text}>
                 <img
@@ -82,9 +92,10 @@ export default function Methods() {
         <Slider {...settings}>
           {cardsData.map((i, index) => {
             return <Card
-              className={s.card + ' ' + s.card + '-' + index}
+              className={s.card}
               hoverable
               key={index}
+              cover={<img alt="cover" className={s.cover} src={i.cover}/>}
             >
               <div className={s.text}>
                 <img
@@ -103,10 +114,10 @@ export default function Methods() {
       <div className={s.wrap}>
         {cardsData.map((i, index) => {
           return <Card
-            className={s.card + ' ' + s.card + '-' + index}
+            className={s.card}
             hoverable
             key={index}
-            cover={<img alt="cover" className={s.cover} src={i.cover} />}
+            cover={<img alt="cover" className={s.cover} src={i.cover}/>}
           >
             <div className={s.text}>
               <img

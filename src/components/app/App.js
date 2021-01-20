@@ -11,6 +11,7 @@ import Photos from "../photos-block";
 import Prises from "../prices-block";
 import MapBlock from "../map-block";
 import Methods from "../methods-block";
+import Contacts from "../contacts";
 import s from './app.module.css';
 
 export default function App() {
@@ -25,7 +26,7 @@ export default function App() {
         <Container title={'Методы обучения'} grayBg>
           <Methods/>
         </Container>
-        <Container title={'Стоимость услуг'}>
+        <Container title={'Стоимость услуг'} id='prices'>
           <Prises/>
         </Container>
         <Container title={'Отзывы наших учеников'} grayBg>
@@ -34,10 +35,13 @@ export default function App() {
         <Container>
           <Photos/>
         </Container>
-        <Container id='form' grayBg>
-          <FormBlock/>
+        <Container id='contact' grayBg>
+          <div className={s.wrapper}>
+            <Contacts/>
+            <FormBlock/>
+          </div>
         </Container>
-        <Container title={'Как добраться'}>
+        <Container title={'Как добраться'} id='about'>
           <MapBlock/>
         </Container>
       </div>

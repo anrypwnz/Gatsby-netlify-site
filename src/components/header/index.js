@@ -47,7 +47,7 @@ export default function HeaderBlock() {
           <nav className={s.nav}>
             <a className={s.link} href="#about">About</a>
             <a className={s.link} href='#contact'>Contacts Us</a>
-            <a className={s.link} href="/">Prices</a>
+            <a className={s.link} href="#prices">Prices</a>
             <a className={s.link} href="/">Something</a>
           </nav>
         </CSSTransition>
