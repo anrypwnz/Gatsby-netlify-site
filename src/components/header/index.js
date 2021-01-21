@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
 import React, { useEffect, useState } from 'react';
 import { CSSTransition } from "react-transition-group";
 import ReactHamburgerMenu from 'react-hamburger-menu';
@@ -51,7 +52,10 @@ export default function HeaderBlock() {
             <a className={s.link} href="/">Something</a>
           </nav>
         </CSSTransition>
-        <div onClick={toggleNav} className={s.burger}>
+        <div onClick={toggleNav}
+             role='navigation'
+             onKeyDown={toggleNav}
+             className={s.burger}>
           <ReactHamburgerMenu
             isOpen={isBurgerOpen}
             menuClicked={handleBurgerClick}

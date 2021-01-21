@@ -1,76 +1,103 @@
 import React from 'react';
 import { Card, Avatar } from 'antd';
+import Slider from "react-slick";
 
 import s from './feedback.module.css';
+import vlad from '../../images/vlad.jpg';
+import anna from '../../images/anna.jpg';
+import sasha from '../../images/sasha.jpg';
+
+import useWindowSize from '../hooks/useWindowSize';
 
 export default function Feedback() {
 
-  return (
-    <div className={s.wrap}>
-      <Card className={s.card}>
-        <Card.Meta avatar={
-          <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
-        }
-                   title={<div className={s.name}>Александра Шевцова</div>}
-                   className={s.cardMeta}
-        />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros,
-          pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.
-          Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
-          in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
-          per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut
-          vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor.
-          Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat
-          faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc.
-          Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis.
-          Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus,
-          non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.
-        </p>
-      </Card>
-
-      <Card className={s.card}>
-        <Card.Meta avatar={
-          <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
-        }
-                   title={<div className={s.name}>Александра Шевцова</div>}
-                   className={s.cardMeta}
-        />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros,
-          pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.
-          Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
-          in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
-          per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut
-          vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor.
-          Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat
-          faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc.
-          Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis.
-          Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus,
-          non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.
-        </p>
-      </Card>
-
-      <Card className={s.card}>
-        <Card.Meta avatar={
-          <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
-        }
-                   title={<div className={s.name}>Александра Шевцова</div>}
-                   className={s.cardMeta}
-        />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros,
-          pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.
-          Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
-          in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
-          per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut
-          vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor.
-          Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat
-          faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc.
-          Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis.
-          Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus,
-          non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.
-        </p>
-      </Card>
-
-
-    </div>
-  );
+  const width = useWindowSize().width;
+  const settings = {
+    centerMode: true,
+    // infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+  };
+  const usersData = [
+    {
+      name: 'Александра Шевцова',
+      avatar: sasha,
+      text: `Я всегда считала, что знаю английский.
+      У меня было множество сертификатов из популярных языковых школ. Поступив на 1-й курс, появилась потребность
+      сдать IELTS и заниматься где-нибудь в центре, чтобы успевать. Запросы получились высокие - цена
+      соответствующая, не для студента. Однако совершенно случайно в инстаграм всплыла реклама languagelift:
+      занятие
+      в центре, на Лубянке, приемлемая стоимость, да ещё и в группах до 4-х человек. Решила прийти попробовать.
+        Меня
+      встретила молодая и интересная девушка. Она провела полноценный тест на уровень языка - оказалось, что я
+      только на pre-intermediate и имею слабый словарный запас. Мне предложили группу с удобным расписанием и
+      увлекательной программой: мы слушаем «bbc talks», «Ted talks», читаем адаптированную литературу, пишем эссе
+      каждую неделю и грамматика здорово структурируется. Уже через год результат не заставил себя ждать: уровень
+      языка поднялся, розовые очки снялись и теперь я целенаправленно иду к своей цели - успешно сдать IELTS.`
+    },
+    {
+      name: 'Влад Жданов',
+      avatar: vlad,
+      text: `Знание универсального, международного языка повышает гибкость, увеличивает поле взаимодействия, позволяя
+              перенимать опыт из многих других источников и развиваться. Посещая занятия я получаю несколько важных
+              плюсов:
+              1) Cистемный подход - все уроки запланированы грамматически и лексически, есть своя система преподнесения
+              информации, позволяющая учить язык без переводов и помощи русского языка, вся грамматика кирпич за
+              кирпичом
+              выстраивается логически. К концу курса есть осязаемый результат.
+              2) Вовлеченность - ты как студент, чувствуешь себя вовлеченным в процесс, даже если тема совсем простая,
+              хочешь не хочешь начинаешь говорить, выражать мысли, понимать и погружаться в процесс.
+              3) Языковая среда - поскольку уроки проходят только на английском языке, идет погружение в среду, что
+              очень
+              помогает начать мыслить совершенно по-другому и что важно на другом языке.`
+    },
+    {
+      name: 'Анна Могилевская',
+      avatar: anna,
+      text: `Мое знакомство с английским языком началось много лет назад. Сначала мои родители увидели, что мне
+              интересно
+              учить алфавит и петь песни, когда я была маленькой. Когда я пошла в школу, к сожалению, мой интерес пропал и я
+              перестала заниматься языком. Поступив в университет, я поняла, что английский язык - язык мировой и для
+              того, чтобы коммуницировать с людьми с любого уголка мира, его необходимо знать.
+              Сейчас я здорово подтянута языка. И именно благодаря языку нашла отличную работу в международной компании.
+              Сейчас я не стесняюсь разговаривать ведь у меня нет языкового барьера, каждое занятие у нас интерактивное.
+              Я продолжаю учить английский в любимом месте для себя, улучшать навыки деловой переписки.
+              Всегда приятно после рабочего дня приходить и в приятной атмосфере заниматься тем, что ты любишь.`
+    },
+  ];
+  if (width < 600) {
+    return (
+      <div className={s.wrap}>
+        <Slider {...settings}>
+          {usersData.map((i, index) => {
+            return <Card className={s.card} key={index}>
+              <Card.Meta
+                avatar={<Avatar size={80} src={i.avatar}/>}
+                title={<div className={s.name}>{i.name}</div>}
+                className={s.cardMeta}
+              />
+              <p className={s.text}>{i.text}</p>
+            </Card>;
+          })}
+        </Slider>
+      </div>
+    );
+  } else {
+    return (
+      <div className={s.wrap}>
+        {usersData.map((i, index) => {
+          return <Card className={s.card} key={index}>
+            <Card.Meta
+              avatar={<Avatar size={80} src={i.avatar}/>}
+              title={<div className={s.name}>{i.name}</div>}
+              className={s.cardMeta}
+            />
+            <p className={s.text}>{i.text}</p>
+          </Card>;
+        })}
+      </div>
+    );
+  }
 }

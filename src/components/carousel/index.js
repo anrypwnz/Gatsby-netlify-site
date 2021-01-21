@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -9,6 +10,8 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className + ' ' + s.arrowRight}
+      role='navigation'
+      onKeyDown={onClick}
       onClick={onClick}
     />
   );
@@ -19,7 +22,9 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className + ' ' + s.arrowLeft}
+      role='navigation'
       onClick={onClick}
+      onKeyDown={onClick}
     />
   );
 }

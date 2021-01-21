@@ -1,4 +1,4 @@
-.wrap {
+.container {
     display: flex;
     padding: 24px;
     max-width: 50%;
@@ -18,6 +18,25 @@
 }
 
 .type {
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #333;
+    text-decoration-thickness: 1px;
     font-weight: 500;
+}
+
+@media (max-width: 986px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .link {
+        font-size: 15px;
+    }
 }

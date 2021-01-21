@@ -16,7 +16,6 @@ export default function PlusesBlock() {
 
   return (
     <div className={s.wrap}>
-
       <Card className={s.card} hoverable>
         <TranslationOutlined className={s.icon}/>
         <Card.Meta title={<Title level={4}>Не используется язык-посредник</Title>}
