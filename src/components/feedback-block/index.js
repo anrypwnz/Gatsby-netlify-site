@@ -10,10 +10,11 @@ import sasha from '../../images/sasha.jpg';
 import useWindowSize from '../hooks/useWindowSize';
 
 export default function Feedback() {
-
   const width = useWindowSize().width;
   const settings = {
-    // infinite: true,
+    infinite: true,
+    dots: true,
+    dotsClass: 'slick-dots ' + s.dots,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

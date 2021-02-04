@@ -27,7 +27,7 @@ export default function FooterBlock() {
       </div>
       <div className={s.divider}/>
       <div className={s.footer__creators}>
-        <span>©2020 made with <span className={s.heart}>❤</span> by anrypwnz</span>
+        <span>©2021 made with <span className={s.heart}>❤</span> by anrypwnz</span>
       </div>
     </footer>
   );

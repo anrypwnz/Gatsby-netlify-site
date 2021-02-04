@@ -20,6 +20,7 @@
 .card div {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .card .ant-card-body {
@@ -31,6 +32,8 @@
 .cover {
     border-radius: 8px !important;
     filter: brightness(50%);
+    transition: all .2s ease-in-out;
+
 }
 
 .text {
@@ -47,6 +50,9 @@
     transform: scale(1.08);
     bottom: 3rem;
 }
+.card:hover .cover {
+    filter: brightness(50%) blur(2px);
+}
 
 .text h3 {
     color: #fff;
@@ -59,9 +65,10 @@
 
 .icon {
     margin-bottom: 1rem;
+    width: 90px;
+    height: 90px;
 }
 
 .wrap-t {
     max-width: 100%;
 }
-

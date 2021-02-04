@@ -25,6 +25,9 @@
 .text {
     text-indent: 1em;
 }
+.dots {
+    bottom: 0;
+}
 @media (max-width: 1024px) {
     .wrap {
         flex-flow: column;
