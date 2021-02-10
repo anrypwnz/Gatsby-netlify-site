@@ -15,11 +15,11 @@ export default function FooterBlock() {
           <span>Email: school@gmail.com</span>
         </div>
         <div className={s.top__block}>
-          <a className={s.social__item} target="_blank" rel="noreferrer" href="http://facebook.com">
+          <a className={s.social__item} target="_blank" rel="noreferrer" href="https://instagram.com">
             <InstagramOutlined className={s.icon}/>
             Instagram
           </a>
-          <a className={s.social__item} target="_blank" rel="noreferrer" href="https://instagram.com">
+          <a className={s.social__item} target="_blank" rel="noreferrer" href="http://facebook.com">
             <FacebookOutlined className={s.icon}/>
             Facebook
           </a>

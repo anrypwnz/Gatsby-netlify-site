@@ -7,7 +7,7 @@ export default function Photos() {
     <>
       <h2 className={s.title}>Следите за нами в <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></h2>
       <div className={s.wrap}>
-        <iframe src="//lightwidget.com/widgets/e83a4b7081ae5d0fb83dbf5315a4b611.html" scrolling="no" allowtransparency="true" className="lightwidget-widget" style={{width:'100%', height:'100%', border:0, overflow:'hidden'}}> </iframe>
+        <div className="elfsight-app-373b6357-ba82-4843-95d8-1c75856a3c59"></div>
       </div>
     </>
   );
